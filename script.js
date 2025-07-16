@@ -48,3 +48,7 @@ function convertUnits() {
 
     document.getElementById('conversionResult').innerText = result;
 }
+const toggleBtn = document.getElementById('darkModeToggle');
+toggleBtn.onclick = () => {
+    document.body.classList.toggle('dark-mode');
+};
