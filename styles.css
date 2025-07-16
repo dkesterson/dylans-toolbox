@@ -238,3 +238,14 @@ footer {
 body, header, main, footer, button, nav a {
     transition: all 0.3s ease;
 }
+.wrapper {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+button:hover {
+    background-color: #555;
+}
+
+nav a:hover {
+    color: #aaa;
+}
