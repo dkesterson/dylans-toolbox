@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Tools - Dylan’s Digital Toolbox</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Dylan’s Digital Toolbox</h1>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="tools.html">Tools</a> |
+                <a href="about.html">About</a> |
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <main>
+            <h2>My Tools</h2>
+
+            <!-- Password Generator -->
+            <section>
+                <h3>Password Generator</h3>
+                <button onclick="generatePassword()">Generate Password</button>
+                <p id="passwordDisplay"></p>
+            </section>
+
+            <!-- Task Tracker -->
+            <section>
+                <h3>Task Tracker</h3>
+                <input type="text" id="taskInput" placeholder="Enter a new task">
+                <button onclick="addTask()">Add Task</button>
+                <ul id="taskList"></ul>
+            </section>
+
+            <!-- Unit Converter -->
+            <section>
+                <h3>Unit Converter</h3>
+                <input type="number" id="unitInput" placeholder="Enter a value">
+                <select id="unitType">
+                    <option value="inToCm">Inches to Centimeters</option>
+                    <option value="cmToIn">Centimeters to Inches</option>
+                </select>
+                <button onclick="convertUnits()">Convert</button>
+                <p id="conversionResult"></p>
+            </section>
+
+            <h2>Tools I’ll Build or Collect</h2>
+            <ul>
+			<li>Coming Soon: Something Cooler</li>
+            </ul>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Dylan’s Digital Toolbox</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
